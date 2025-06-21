@@ -1,7 +1,7 @@
 from django import forms
 
 class Show_detelis(forms.Form):
-    NAME=forms.CharField(
+    NAME=forms.CharField( 
         label='Enter name ',  
     )
     ROLL_number=forms.IntegerField()
